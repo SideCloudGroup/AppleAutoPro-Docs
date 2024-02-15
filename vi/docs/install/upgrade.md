@@ -16,9 +16,9 @@ Phần mềm phía sau sẽ tự động cập nhật, không cần quản lý t
 
 ```bash
 docker run --rm \
-    -v /var/run/docker.sock:/var/run/docker.sock \
-    containrrr/watchtower \
-    --run-once \
-    --cleanup \
-    appleautopro
+-v /var/run/docker.sock:/var/run/docker.sock \
+containrrr/watchtower \
+--run-once \
+--cleanup \
+appleautopro
 ```
