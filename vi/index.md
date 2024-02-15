@@ -11,7 +11,7 @@ hero:
       link: https://cloudsides.com/index.php/store/appleauto
     - theme: alt
       text: Get Started
-      link: /docs/
+      link: /vi/docs/
     - theme: alt
       text: Telegram Group
       link: https://t.me/appleunblocker
