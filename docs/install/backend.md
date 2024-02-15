@@ -1,28 +1,27 @@
-# Backend Installation
+# 后端安装
 
-## Preparations
+## 注意事项
 
-### Hardware Requirement
+### 机器配置
 
-The backend of the program has higher machine configuration requirements, recommending a minimum of 4GB of RAM. If there are many accounts, consider using a cluster.<br>
-It is advised **NOT** to use **CentOS 7** 。
+程序后端对机器配置要求较高，推荐至少4G内存。如账号较多，请考虑使用集群。<br>
+建议**不要**使用 **CentOS 7** 。
 
-### Software Environment
+### 环境需求
 
-The backend runs on Docker, and the installation script will automatically detect whether Docker is installed, so manual installation is not required.
+后端运行基于 Docker ，安装脚本会自动检测 Docker 是否安装，因此无需手动安装。
 
 ### Selenium
 
-The backend executes tasks by invoking Webdriver, which can be understood as a browser.
+后端执行任务需要调用 Webdriver ，你可以理解为浏览器。
 
-Selenium has two deployment methods: **standanlone** and **grid**.
+Selenium有两种部署方式：**单机节点**和**集群**。
 
 #### 单机节点（standalone）
 
 后端安装脚本包含了单机节点部署功能，在运行时选择部署即可。
 
-注意：**If you want to deploy Selenium on ARM devices, Please look at this:**
-[**seleniarm/standalone-chromium**](https://hub.docker.com/r/seleniarm/standalone-chromium)
+注意：**如需在ARM设备上使用 Selenium ，请参阅：**[**seleniarm/standalone-chromium**](https://hub.docker.com/r/seleniarm/standalone-chromium)
 
 #### 集群（grid）
 
@@ -39,9 +38,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/pplulee/AppleAutoPro-Backend/m
 ```
 
 安装时按照提示输入参数即可。如安装单机版Selenium请确保可以访问4444端口。
-默认会以 **appleautopro** 为容器名部署一个Docker容器，这是**`后端管理器`**。
-appleauto会自动获取任务，为每个任务部署一个**`任务容器`**
-执行 **docker logs appleautopro** 查看**`后端管理器`**日志。
+默认会以 **appleautopro** 为容器名部署一个Docker容器，这是 **`后端管理器`**。
+appleauto会自动获取任务，为每个任务部署一个 **`任务容器`**
+执行 **docker logs appleautopro** 查看 **`后端管理器`** 日志。
 
 
-如需查看**任务容器**日志，请先执行**docker ps -a**，其中命名格式为"apple-auto_X"的则是任务容器，X代表了账号ID。使用 **docker logs apple-auto\_X** 即可查看日志。
+如需查看**任务容器**日志，请先执行**docker ps -a**，其中命名格式为"apple-auto_X"的则是任务容器，X代表了账号ID。使用 **docker logs apple-auto_X** 即可查看日志。
