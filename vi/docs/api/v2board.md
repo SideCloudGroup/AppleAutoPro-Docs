@@ -14,7 +14,7 @@ Biến `$share_url` trong khung đỏ biểu thị liên kết API trang chia s�
 
 Nếu trang chia sẻ của bạn là `https://test.com/share/kfcv50`, thì API trang chia sẻ sẽ là `https://test.com/shareapi/kfcv50`. Nếu trang chia sẻ có mật khẩu, bạn cần đặt nó thành `https://test.com/shareapi/kfcv50/mật khẩu của bạn`.
 
-<figure><img src="../.gitbook/assets/image%20(12).png" alt=""><figcaption></figcaption></figure>
+![v2board.png](/assets/images/v2board.png)
 
 ## Gọi Kho Kiến Thức
 
@@ -32,4 +32,4 @@ X là số thứ tự bắt đầu từ 0.
 
 ## Kết Quả Hoàn Thành
 
-<figure><img src="../.gitbook/assets/image%20(8).png" alt=""><figcaption></figcaption></figure>
+![v2board-result.png](/assets/images/v2board-result.png)

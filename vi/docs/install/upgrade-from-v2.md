@@ -3,7 +3,7 @@
 ## Giao Diện Phía Trước
 
 1. Xóa tất cả các tệp trong thư mục trang web. (Lưu ý: nếu cần, hãy sao lưu nội dung trong .env, ví dụ như key)
-2. Tham khảo [hướng dẫn cài đặt giao diện phía trước](front-end.md) và hoàn thành từ bước 1 đến 6.
+2. Tham khảo [hướng dẫn cài đặt giao diện phía trước](frontend.md) và hoàn thành từ bước 1 đến 6.
 3. Thực hiện lệnh\
    `php think migrate:run`\
    Thao tác này hỗ trợ nâng cấp cơ sở dữ liệu một cách mượt mà.\

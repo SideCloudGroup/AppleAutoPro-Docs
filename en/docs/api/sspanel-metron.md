@@ -2,14 +2,14 @@
 
 ## 下载文件
 
-前往[https://github.com/pplulee/appleid\_auto/tree/backend/embed/SSPanel-Metron](https://github.com/pplulee/appleid\_auto/tree/backend/embed/SSPanel-Metron)\
-下载适用于AppleAuto的文件，并替换
+前往[https://github.com/pplulee/appleid_auto/tree/backend/embed/SSPanel-Metron](https://github.com/pplulee/appleid\_auto/tree/backend/embed/SSPanel-Metron)
+下载适用于AppleAuto的对接文件，并替换网站程序。
 
 ## 修改文件
 
 打开`src\Controllers\UserController.php`文件
 
-<figure><img src="../../.gitbook/assets/image%20(13).png" alt=""><figcaption></figcaption></figure>
+![SSPanel-Metron.png](/assets/images/ssp-metron.png)
 
 红框处变量`$share_url`表示分享页API链接
 

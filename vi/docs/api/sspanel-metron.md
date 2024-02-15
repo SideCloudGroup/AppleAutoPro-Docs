@@ -9,7 +9,7 @@ Tải file phù hợp cho AppleAuto và thay thế.
 
 Mở file `src\Controllers\UserController.php`
 
-<figure><img src="../.gitbook/assets/image%20(13).png" alt=""><figcaption></figcaption></figure>
+![SSPanel-Metron.png](/assets/images/ssp-metron.png)
 
 Biến `$share_url` trong khung đỏ biểu thị liên kết API trang chia sẻ.
 
