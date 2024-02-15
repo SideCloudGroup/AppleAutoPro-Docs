@@ -12,6 +12,6 @@ You can sign up an account on these pages to experience our product.
 
 #### Info of Admin
 
-Username: test
-Password: 123456
+Username: test<br>
+Password: 123456<br>
 **DO NOT Change Password**
