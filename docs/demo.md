@@ -12,6 +12,6 @@ https://demo-b.appleidauto.org/
 
 #### 管理员信息
 
-用户名: test
-密码: 123456
+用户名: test<br>
+密码: 123456<br>
 **请勿修改密码**
