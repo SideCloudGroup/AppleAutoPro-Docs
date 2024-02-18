@@ -1,5 +1,7 @@
 # Basic Introduction
 
+**The content is adjusted to English users, not just a translation of Chinese one. For example, we removed some tutorials with BT panel.**
+
 "Manage your Apple ID in a brand-new way" - This is an automated Apple ID detection & unlocking program based on security questions.
 
 The frontend is used to manage accounts, support adding multiple accounts, and provide a display account page.

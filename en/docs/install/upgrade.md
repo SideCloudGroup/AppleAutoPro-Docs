@@ -1,14 +1,14 @@
-# 升级程序
+# To Upgrade
 
-## 前端升级
+## To upgrade Frontend
 
-在网站根目录执行 `bash upgrade.sh`
+Execute in the website's root directory `bash upgrade.sh`
 
 请查看脚本执行输出，如有提示需要更新env文件，请手动比对`.example.env`与`.env`
 
-如果upgrade.sh不存在，说明前端版本过老，请手动下载源码并覆盖更新。
+如果`upgrade.sh`不存在，说明前端版本过老，请手动下载源码并覆盖更新。
 
-## 后端升级
+## To upgrade Backend
 
 后端会自动更新，无需手动管理。
 

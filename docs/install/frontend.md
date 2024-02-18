@@ -6,7 +6,7 @@
 
 前端运行环境需要 **PHP 7.4**，暂不支持其他PHP版本。
 
-MySQL推荐版本为8.0，理论支持 MySQL5.x 和 MariaDB 。
+MySQL推荐版本为 MySQL 8.0，但理论上支持 MySQL 5.x 和 MariaDB 。
 
 ## 安装流程
 
