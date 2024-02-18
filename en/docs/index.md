@@ -43,8 +43,8 @@ Below is a comparison of the features of each version.
 | Authorization Method                          | -                   | One-time         | Time-based/One-time |
 
 
-* **Limit Shared Page Domain：**Only authorized domains can reference the sharing page to prevent misuse.
-* **Manage Permission of Users：**You can set user expiration dates, maximum account limits, and minimum unlock intervals, among other settings.
-* **Sale Your Package：**The website comes with an integrated shopping mall feature where administrators can set various packages (periods, minimum execution intervals, etc.) for users to purchase.
-* **Account Rental：**Administrators can designate accounts as rental accounts and set prices for each rented account (billed per day). Users have the option to renew rented accounts.
-* **Online Payment：**Currently, we support payment via YiZhiFu and recharge using prepaid keys.
+* **Limit Shared Page Domain:** Only authorized domains can reference the sharing page to prevent misuse.
+* **Manage Permission of Users:** You can set user expiration dates, maximum account limits, and minimum unlock intervals, among other settings.
+* **Sale Your Package:** The website comes with an integrated shopping mall feature where administrators can set various packages (periods, minimum execution intervals, etc.) for users to purchase.
+* **Account Rental:** Administrators can designate accounts as rental accounts and set prices for each rented account (billed per day). Users have the option to renew rented accounts.
+* **Online Payment:** Currently, we support payment via YiZhiFu and recharge using prepaid keys.
