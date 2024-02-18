@@ -1,7 +1,7 @@
-# 离线授权证书使用方法
+# Offline License Usage Instructions:
 
-在购买产品后，你将会获得一串字符串，如图所示，这就是证书的内容\
+After purchasing the product, you will receive a string of characters, as shown in the image, which is the content of the license.
 
 ![license.png](/assets/images/license-example.png)
 
-在 `网站根目录/data/certs/` 有`license.example`文件，将其重命名为`license`，使用文本编辑器打开，然后粘贴证书内容即可。
+In `wwwroot/data/certs/` you should find `license.example` which needs renaming to`license` ,Open with any text editor and paste the content of the license into it.

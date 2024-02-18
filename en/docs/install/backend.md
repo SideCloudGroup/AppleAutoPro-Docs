@@ -17,18 +17,18 @@ The backend executes tasks by invoking Webdriver, which can be understood as a b
 
 Selenium has two deployment methods: **standanlone** and **grid**.
 
-#### 单机节点（standalone）
+#### standalone
 
-后端安装脚本包含了单机节点部署功能，在运行时选择部署即可。
+The backend installation script includes single-node deployment functionality. Simply select the deployment option during running the script.
 
-注意：**If you want to deploy Selenium on ARM devices, Please look at this:**
+Note：**If you want to deploy Selenium on ARM devices, Please look at this:**
 [**seleniarm/standalone-chromium**](https://hub.docker.com/r/seleniarm/standalone-chromium)
 
-#### 集群（grid）
+#### grid
 
-Selenium Grid 需要一个中心控制器（Hub），并允许在多台服务器上部署节点（Node）。Hub收到请求后会自动分配 Node ，实现负载均衡，多IP访问等功能。
+Selenium Grid requires a central controller (Hub) and allows nodes to be deployed on multiple servers (node). The Hub automatically assigns Nodes upon receiving requests, achieving load balancing, and enabling multi-IP access, among other functionalities.
 
-如需部署集群，可使用快速部署脚本。请参考：[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) (这个脚本提供x86\_64和arm部署支持)。
+If you need to deploy a cluster, you can use the quick deployment script. Please refer to:[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) , this script provides support for both x86_64 and ARM deployments.
 
 注意：**如果部署集群，请勿在下方部署后端时选择部署Selenium单机节点**
 

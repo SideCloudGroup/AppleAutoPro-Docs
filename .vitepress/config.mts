@@ -96,8 +96,8 @@ export default defineConfig({
                 {
                     text: "Installation",
                     items: [
-                        {text: "Front-end", link: "/en/docs/install/frontend.md"},
-                        {text: "Back-end", link: "/en/docs/install/backend.md"},
+                        {text: "Frontend", link: "/en/docs/install/frontend.md"},
+                        {text: "Backend", link: "/en/docs/install/backend.md"},
                         {text: "How to use the License", link: "/en/docs/install/license-manual.md"},
                     ],
                 },

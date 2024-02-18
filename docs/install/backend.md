@@ -27,7 +27,7 @@ Selenium有两种部署方式：**单机节点**和**集群**。
 
 Selenium Grid 需要一个中心控制器（Hub），并允许在多台服务器上部署节点（Node）。Hub收到请求后会自动分配 Node ，实现负载均衡，多IP访问等功能。
 
-如需部署集群，可使用快速部署脚本。请参考：[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) (这个脚本提供x86\_64和arm部署支持)。
+如需部署集群，可使用快速部署脚本。请参考：[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) ，这个脚本提供x86_64和arm部署支持。
 
 注意：**如果部署集群，请勿在下方部署后端时选择部署Selenium单机节点**
 
