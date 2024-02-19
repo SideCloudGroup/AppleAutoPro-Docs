@@ -2,11 +2,11 @@
 
 ## Phiên Bản Cá Nhân
 
-Bạn có thể truy cập demo của phiên bản cá nhân tại [https://demo-p.appleidauto.org/](https://demo-p.appleidauto.org/).
+Bạn có thể truy cập demo của phiên bản cá nhân tại [https://demo-p.appleauto.pro/](https://demo-p.appleidauto.org/).
 
 ## Phiên Bản Thương Mại
 
-Demo cho phiên bản thương mại có sẵn tại [https://demo-b.appleidauto.org/](https://demo-b.appleidauto.org/).
+Demo cho phiên bản thương mại có sẵn tại [https://demo-b.appleauto.pro/](https://demo-b.appleidauto.org/).
 
 Bạn có thể đăng ký tài khoản để trải nghiệm.
 

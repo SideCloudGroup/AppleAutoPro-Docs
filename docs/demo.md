@@ -2,11 +2,11 @@
 
 ## 个人版
 
-https://demo-p.appleidauto.org/
+https://demo-p.appleauto.pro/
 
 ## 商业版
 
-https://demo-b.appleidauto.org/
+https://demo-b.appleauto.pro/
 
 可注册账号体验。
 

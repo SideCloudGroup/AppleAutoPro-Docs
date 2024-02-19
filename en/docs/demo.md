@@ -2,11 +2,11 @@
 
 ## Personal Edition
 
-https://demo-p.appleidauto.org/
+https://demo-p.appleauto.pro/
 
 ## Business Edition
 
-https://demo-b.appleidauto.org/
+https://demo-b.appleauto.pro/
 
 You can sign up an account on these pages to experience our product.
 
