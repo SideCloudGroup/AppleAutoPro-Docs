@@ -73,7 +73,8 @@ export default defineConfig({
                     items: [
                         {text: "ionCube相关报错", link: "/docs/others/ioncube-error.md"},
                         {text: "服务器/代理商家统计表", link: "/docs/others/stat.md"},
-                        {text: "常见问题", link: "/docs/others/q-a.md"},
+                        {text: "关闭二步验证弹窗", link: "/docs/others/turn-off-2fa.md"},
+                        {text: "常见问题", link: "/docs/others/faq.md"},
                     ]
                 }
             ],
