@@ -10,6 +10,9 @@ We recommend MySQL 8.0 for better experience. Theoretically, MySQL5.x and MariaD
 
 ## Installation Procedure
 
+> [!CAUTION]
+> Document will only work if you follow every section and step precisely. Do **NOT** continue after something fails!
+
 1. After purchasing the program, you will receive a download link for the source code. Download it to the root directory of your website and unzip it.
 2. Copy the configuration file `.example.env`, rename it to `.env`, and fill in the settings.
 3. If you are a Personal Edition (offline authorization) user, please [write in the license](license-manual) before proceeding.

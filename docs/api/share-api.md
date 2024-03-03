@@ -8,7 +8,7 @@ API地址：`/shareapi/<code>/[password]`\
 请求方法：`GET`
 
 例子：如果您的普通分享页面路径是 `/share/kfcv50`，密码设置为`crazy4`
-，那么这个页面对应的API地址路径就是 `/shareapi/kfcv50/crazy4` 。\
+，那么这个页面对应的API地址路径就是 `/shareapi/kfcv50/crazy4` 。
 
 ### 输入参数
 
