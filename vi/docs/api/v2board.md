@@ -2,7 +2,7 @@
 
 ## Tải File
 
-Tải file [KnowledgeController](https://raw.githubusercontent.com/pplulee/appleid\_auto/backend/embed/v2board/KnowledgeController.php) phù hợp cho AppleAuto.
+Tải file [KnowledgeController](https://raw.githubusercontent.com/SideCloudGroup/appleid\_auto/backend/embed/v2board/KnowledgeController.php) phù hợp cho AppleAuto.
 
 Đi đến `thư mục gốc V2board/app/Http/Controllers/User/`, thay thế file `KnowledgeController.php`.
 

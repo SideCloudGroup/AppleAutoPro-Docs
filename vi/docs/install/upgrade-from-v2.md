@@ -15,5 +15,5 @@
 Chỉ cần sao chép và thực hiện lệnh sau:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/pplulee/AppleAutoPro-Backend/main/upgrade.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/upgrade.sh)
 ```

@@ -2,7 +2,7 @@
 
 ## 下载文件
 
-下载适用于AppleAuto的[KnowledgeController](https://raw.githubusercontent.com/pplulee/appleid\_auto/backend/embed/v2board/KnowledgeController.php)
+下载适用于AppleAuto的[KnowledgeController](https://raw.githubusercontent.com/SideCloudGroup/appleid\_auto/backend/embed/v2board/KnowledgeController.php)
 文件
 
 前往 V2board根目录`/app/Http/Controllers/User/` ，替换 KnowledgeController.php

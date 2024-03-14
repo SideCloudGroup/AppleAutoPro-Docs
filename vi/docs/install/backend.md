@@ -27,7 +27,7 @@ Selenium Grid cần một bộ điều khiển trung tâm (Hub) và cho phép tr
 ## Cài Đặt Phần Mềm Phía Sau Bằng Một Cú Click
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/pplulee/AppleAutoPro-Backend/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```
 
 Chỉ cần theo hướng dẫn để nhập các tham số khi cài đặt.\

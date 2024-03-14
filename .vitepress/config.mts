@@ -36,11 +36,11 @@ export default defineConfig({
                     items: [
                         {
                             text: "个人版",
-                            link: "https://github.com/pplulee/AppleAutoPro-Personal/releases",
+                            link: "https://github.com/SideCloudGroup/AppleAutoPro-Personal/releases",
                         },
                         {
                             text: "商业版",
-                            link: "https://github.com/pplulee/AppleAutoPro-Business/releases",
+                            link: "https://github.com/SideCloudGroup/AppleAutoPro-Business/releases",
                         },
                     ],
                 },
@@ -86,11 +86,11 @@ export default defineConfig({
                     items: [
                         {
                             text: "Personal Edition",
-                            link: "https://github.com/pplulee/AppleAutoPro-Personal/releases",
+                            link: "https://github.com/SideCloudGroup/AppleAutoPro-Personal/releases",
                         },
                         {
                             text: "Business Edition",
-                            link: "https://github.com/pplulee/AppleAutoPro-Business/releases",
+                            link: "https://github.com/SideCloudGroup/AppleAutoPro-Business/releases",
                         },
                     ],
                 },
@@ -135,11 +135,11 @@ export default defineConfig({
                     items: [
                         {
                             text: "Phiên bản cá nhân",
-                            link: "https://github.com/pplulee/AppleAutoPro-Personal/releases",
+                            link: "https://github.com/SideCloudGroup/AppleAutoPro-Personal/releases",
                         },
                         {
                             text: "Phiên bản doanh nghiệp",
-                            link: "https://github.com/pplulee/AppleAutoPro-Business/releases",
+                            link: "https://github.com/SideCloudGroup/AppleAutoPro-Business/releases",
                         },
                     ],
                 },

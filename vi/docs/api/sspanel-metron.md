@@ -2,7 +2,7 @@
 
 ## Tải File
 
-Truy cập [https://github.com/pplulee/appleid\_auto/tree/backend/embed/SSPanel-Metron](https://github.com/pplulee/appleid\_auto/tree/backend/embed/SSPanel-Metron)\
+Truy cập [https://github.com/SideCloudGroup/appleid\_auto/tree/backend/embed/SSPanel-Metron](https://github.com/SideCloudGroup/appleid\_auto/tree/backend/embed/SSPanel-Metron)\
 Tải file phù hợp cho AppleAuto và thay thế.
 
 ## Chỉnh Sửa File

@@ -35,7 +35,7 @@ If you need to deploy a cluster, you can use the quick deployment script. Please
 ## 一键部署后端
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/pplulee/AppleAutoPro-Backend/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```
 
 安装时按照提示输入参数即可。如安装单机版Selenium请确保可以访问4444端口。
