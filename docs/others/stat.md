@@ -16,14 +16,16 @@
 | Vultr          | ❌  |              |
 | 阿里云国际          | ❌  | 多数用户反馈无法使用   |
 | Racknerd       | ❌  |              |
+| Linode         | ❌  |              |
 | 腾讯云            | ✅  |              |
 | OneProvider    | ✅  | 独服，巴黎和荷兰价格较低 |
 | spartanhost斯巴达 | ✅  |              |
 
 ### 代理商家
 
-| 网址                                                                    | 状态 | 说明   |
-|-----------------------------------------------------------------------|----|------|
-| [https://www.zmhttp.com](https://www.zmhttp.com/?pid=8891470623)      | ✅  | 国内商家 |
-| [https://oxylabs.io/](https://oxylabs.io/https://hydraproxy.com/)     | ✅  |      |
-| [https://hydraproxy.com/](https://oxylabs.io/https://hydraproxy.com/) | ✅  |      |
+| 网址                                                                    | 状态 | 说明       |
+|-----------------------------------------------------------------------|----|----------|
+| [https://www.zmhttp.com](https://www.zmhttp.com/?pid=8891470623)      | ✅  | 仅限国内IP使用 |
+| [https://oxylabs.io/](https://oxylabs.io/https://hydraproxy.com/)     | ✅  |          |
+| [https://hydraproxy.com/](https://oxylabs.io/https://hydraproxy.com/) | ✅  |          |
+| [https://my.socks5.io/](https://my.socks5.io/)                   | ✅  | 有免费流量    |
