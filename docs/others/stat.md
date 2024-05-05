@@ -17,6 +17,7 @@
 | 阿里云国际          | ❌  | 多数用户反馈无法使用   |
 | Racknerd       | ❌  |              |
 | Linode         | ❌  |              |
+| OVH            | ❌  |              |
 | 腾讯云            | ✅  |              |
 | OneProvider    | ✅  | 独服，巴黎和荷兰价格较低 |
 | spartanhost斯巴达 | ✅  |              |

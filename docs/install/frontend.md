@@ -16,7 +16,7 @@ MySQL推荐版本为 MySQL 8.0，但理论上支持 MySQL 5.x 和 MariaDB 。
 1. 购买程序后，你将会获得源码下载链接。将其下载到网站根目录并解压。
 2. 将配置文件`.example.env`复制一份，名字改为`.env`，并填写设置项
 3. 如果是个人版（离线授权）用户，请先[写入证书](license-manual)继续操作
-4. 前往PHP设置，删除对`putenv`函数的禁用，并安装`fileinfo`和`ioncube`拓展
+4. 前往PHP设置，删除对`putenv`和`proc_open`函数的禁用，并安装`fileinfo`和`ioncube`拓展
    
    > [!TIP]
    > 对于宝塔用户，请前往`软件商店`->`PHP7.4设置`<br>
