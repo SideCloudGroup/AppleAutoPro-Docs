@@ -2,7 +2,7 @@
 
 ## 下载文件
 
-前往[https://github.com/pplulee/appleid_auto/tree/backend/embed/SSPanel-Metron](https://github.com/pplulee/appleid_auto/tree/backend/embed/SSPanel-Metron)
+前往[https://github.com/SideCloudGroup/AppleAuto-For-SSP-Metron](https://github.com/SideCloudGroup/AppleAuto-For-SSP-Metron)
 下载适用于AppleAuto的对接文件，并替换网站程序。
 
 ## 修改文件
