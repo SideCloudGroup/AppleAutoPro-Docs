@@ -7,6 +7,11 @@
 程序后端对机器配置要求较高，推荐至少4G内存。如账号较多，请考虑使用集群。<br>
 建议**不要**使用 **CentOS 7** 。
 
+### 资源占用
+单个账号在运行时需要约600MB内存，空闲时在100MB以内。
+
+每次执行任务大概需要20MB流量。
+
 ### 环境需求
 
 后端运行基于 Docker ，安装脚本会自动检测 Docker 是否安装，因此无需手动安装。
@@ -17,9 +22,9 @@
 
 Selenium有两种部署方式：**单机节点**和**集群**。
 
-#### 单机节点（standalone）
+#### [默认] 单机节点（standalone）
 
-后端安装脚本包含了单机节点部署功能，在运行时选择部署即可。
+在执行一键部署后端时，您可以选择同时部署Selenium单机节点。**无需额外安装。**
 
 注意：**如需在ARM设备上使用 Selenium ，请参阅：**[**seleniarm/standalone-chromium**](https://hub.docker.com/r/seleniarm/standalone-chromium)
 
