@@ -14,7 +14,7 @@ hero:
       link: /vi/docs/
     - theme: alt
       text: Telegram Group
-      link: https://t.me/appleunblocker
+      link: https://t.me/AppleAutoPro_group
 
 features:
   - title: Unlock Accounts or Disable 2FA Automatically
