@@ -1,47 +1,93 @@
+
 # Backend Installation
 
-## Preparations
+## Resource Requirements
 
-### Hardware Requirement
+The program backend has high requirements for machine configuration, and at least 4GB of memory is recommended. If there are many accounts, consider using a cluster.
 
-The backend of the program has higher machine configuration requirements, recommending a minimum of 4GB of RAM. If there are many accounts, consider using a cluster.<br>
-It is advised **NOT** to use **CentOS 7** 。
+It is recommended **not** to use **CentOS 7**.
 
-### Software Environment
+A single account requires about 600MB of memory when running, mainly occupied by WebDriver. When idle, it is within 100MB.
 
-The backend runs on Docker, and the installation script will automatically detect whether Docker is installed, so manual installation is not required.
+Each task execution requires about 20MB of traffic.
 
-### Selenium
+The backend runs based on Docker, and the installation script will automatically detect whether Docker is installed, so manual installation is not required.
 
-The backend executes tasks by invoking Webdriver, which can be understood as a browser.
+## Architecture Introduction
 
-Selenium has two deployment methods: **standanlone** and **grid**.
+The backend is mainly divided into two parts:
 
-#### standalone
+- `WebDriver` - Can be understood as a browser, available in standalone or cluster versions.
+- `AppleAutoPro Backend Program` - **Calls WebDriver**, checks accounts, and executes tasks. It only needs to be deployed on one server.
 
-The backend installation script includes single-node deployment functionality. Simply select the deployment option during running the script.
+### WebDriver Standalone Version
 
-Note：**If you want to deploy Selenium on ARM devices, Please look at this:**
-[**seleniarm/standalone-chromium**](https://hub.docker.com/r/seleniarm/standalone-chromium)
+The standalone version runs WebDriver on only one server. When executing the one-click deployment of the backend, you can choose to **deploy the Selenium standalone node simultaneously**. **No additional manual installation is required.**
 
-#### grid
+### WebDriver Cluster
 
-Selenium Grid requires a central controller (Hub) and allows nodes to be deployed on multiple servers (node). The Hub automatically assigns Nodes upon receiving requests, achieving load balancing, and enabling multi-IP access, among other functionalities.
+The cluster is divided into two parts:
 
-If you need to deploy a cluster, you can use the quick deployment script. Please refer to:[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) , this script provides support for both x86_64 and ARM deployments.
+- `Hub` - Central controller that automatically assigns tasks to `Node` and provides a WebDriver panel. **It only needs to be installed on one server.**
+- `Node` - The node that executes tasks needs to be installed on multiple servers.
 
-注意：**如果部署集群，请勿在下方部署后端时选择部署Selenium单机节点**
+## Network Requirements
 
-## 一键部署后端
+Some IP segments are blocked by Apple. It is recommended to use native IPs or dynamic IPs. For more information, please refer to: [Network Requirements](../others/stat)
+
+## Installation Process
+
+1. [Deploy WebDriver (Cluster or Standalone version optional)](#deploy-webdriver)
+2. Ensure that the WebDriver address can be opened by the browser, and the port is unblocked. (Being able to open it does not mean the port is unblocked, please check if there is a firewall in the system.)
+   For example, if the server IP is 114.5.1.4 and the WebDriver port is 4444, then enter `http://114.5.1.4:4444` in the browser and check whether it is accessible.
+3. Fill in the `WEBDRIVER` address in the front-end `.env` file.
+   As in the previous step, just fill in `http://114.5.1.4:4444`. If WebDriver has authentication, fill in `http://username:password@114.5.1.4:4444`.
+4. [Deploy AppleAutoPro Backend](#deploy-appleautopro-backend)
+
+## Deploy WebDriver
+
+Please go to [sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) to view the installation script.
+
+## Deploy AppleAutoPro Backend
+
+Execute the following command:
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```
 
-安装时按照提示输入参数即可。如安装单机版Selenium请确保可以访问4444端口。
-默认会以 **appleautopro** 为容器名部署一个Docker容器，这是**`后端管理器`**。
-appleauto会自动获取任务，为每个任务部署一个**`任务容器`**
-执行 **docker logs appleautopro** 查看**`后端管理器`**日志。
+Follow the prompts to enter parameters during installation.
+By default, a Docker container is deployed with the container name **appleautopro**, which is the **`Backend Manager`**.
+appleautopro will automatically obtain tasks and deploy a **`Task Container`** for each task.
 
+## Basic Docker Operations
 
-如需查看**任务容器**日志，请先执行**docker ps -a**，其中命名格式为"apple-auto_X"的则是任务容器，X代表了账号ID。使用 **docker logs apple-auto\_X** 即可查看日志。
+### View all containers
+
+```bash
+docker ps -a
+```
+
+### Stop a container
+
+```bash
+docker stop <container_name>
+```
+
+### Restart a container
+
+```bash
+docker restart <container_name>
+```
+
+### View logs
+
+```bash
+docker logs <container_name>
+```
+
+Execute **docker logs appleautopro** to view the **`Backend Manager`** logs.
+
+To view **`Task Container`** logs, first execute **docker ps -a**, where the naming format `apple-auto_X` is the task container, and X represents the account number.
+
+Use **docker logs apple-auto_X** to view the logs.

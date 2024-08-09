@@ -19,7 +19,7 @@
 - `WebDriver` - 可以理解为浏览器，可选择单机版或集群版。
 - `AppleAutoPro后端程序` - **调用WebDriver**，检测账号，执行任务。仅需在一台服务器上部署。
 
-### WebDriver单机版（Standalon)
+### WebDriver单机版（Standalone）
 
 单机版仅在一台服务器上运行WebDriver。在执行一键部署后端时，可以选择**同时部署Selenium单机节点**。**无需额外手动安装。**
 
