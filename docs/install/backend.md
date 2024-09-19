@@ -21,7 +21,7 @@
 
 ### WebDriver单机版（Standalone）
 
-单机版仅在一台服务器上运行WebDriver。在执行一键部署后端时，可以选择**同时部署Selenium单机节点**。**无需额外手动安装。**
+单机版仅在一台服务器上运行WebDriver。
 
 ### WebDriver集群
 
@@ -47,7 +47,14 @@
 
 ## 部署WebDriver
 
-请前往[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker)查看安装脚本。
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/sahuidhsu/selenium-grid-docker/main/wd.sh)
+```
+若服务器位于中国大陆，可使用以下命令：
+
+```bash
+bash <(curl -Ls https://tian-shen.me/wd)
+```
 
 ## 部署AppleAutoPro后端
 
