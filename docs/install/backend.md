@@ -64,6 +64,12 @@ bash <(curl -Ls https://tian-shen.me/wd)
 bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```
 
+若服务器位于中国大陆，可使用以下命令：
+    
+```bash
+bash <(curl -Ls https://ghp.ci/raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
+```
+
 安装时按照提示输入参数即可。
 默认会以 **appleautopro** 为容器名部署一个Docker容器，这是 **`后端管理器`**。
 appleautopro会自动获取任务，为每个任务部署一个 **`任务容器`**
