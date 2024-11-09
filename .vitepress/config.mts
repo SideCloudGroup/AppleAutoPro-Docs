@@ -65,6 +65,7 @@ export default defineConfig({
                         {text: "分享页API", link: "/docs/api/share-api.md"},
                         {text: "V2Board知识库对接", link: "/docs/api/v2board.md"},
                         {text: "SSPanel-Metron对接", link: "/docs/api/sspanel-metron.md"},
+                        {text: "VitePress对接", link: "https://vitepress-appleautopro.pages.dev/apple-examples"},
                         {text: "PHP库", link: "https://packagist.org/packages/sidecloud/appleauto-php"},
                     ],
                 },
