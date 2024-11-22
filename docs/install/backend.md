@@ -38,6 +38,8 @@
 
 ## 安装流程
 
+**若您的服务器位于中国大陆，请先[手动安装Docker](../others/docker-install-cn)。**
+
 1. [部署WebDriver（可选集群或单机版）](#部署webdriver)
 2. 确保WebDriver的地址可以被浏览器打开，端口已放行。（能打开不代表端口已放行，请检查系统是否有防火墙）\
    例如服务器IP为114.5.1.4，WebDriver端口为4444，则在浏览器输入`http://114.5.1.4:4444`，检查是否能访问
@@ -47,25 +49,28 @@
 
 ## 部署WebDriver
 
+### 海外服务器
+
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/sahuidhsu/selenium-grid-docker/main/wd.sh)
 ```
-若服务器位于中国大陆，可使用以下命令：
+
+### 中国大陆服务器
 
 ```bash
-bash <(curl -Ls https://tian-shen.me/wd)
+bash <(curl -Ls https://ghp.ci/raw.githubusercontent.com/sahuidhsu/selenium-grid-docker/main/wd.sh)
 ```
 
 ## 部署AppleAutoPro后端
 
-执行以下指令即可
+### 海外服务器
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```
 
-若服务器位于中国大陆，可使用以下命令：
-    
+### 中国大陆服务器
+
 ```bash
 bash <(curl -Ls https://ghp.ci/raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```

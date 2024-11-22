@@ -1,8 +1,16 @@
-# Linux 上更换 Docker Registry 镜像源教程
+## 安装 Docker
+执行脚本
+```bash
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh) --source-registry "https://docker.1panel.live" --install-latest true --ignore-backup-tips
+```
+
+安装时，可以优先选择您的服务商的软件源，以提高下载速度。
+
+**使用此脚本安装的 Docker 无需再进行更换 Docker Registry 镜像源的操作。**
+
+## 更换 Docker Registry 镜像源教程
 
 本教程将指导您如何通过修改 `daemon.json` 文件来更换 Docker Registry 镜像源。
-
-## 步骤
 
 ### 1. 打开或创建 `daemon.json` 文件
 

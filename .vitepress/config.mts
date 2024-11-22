@@ -49,7 +49,8 @@ export default defineConfig({
                     items: [
                         {text: "前端安装", link: "/docs/install/frontend.md"},
                         {text: "后端安装", link: "/docs/install/backend.md"},
-                        {text: "离线授权证书使用方法", link: "/docs/install/license-manual.md"},
+                        {text: "个人版授权证书安装", link: "/docs/install/license-manual.md"},
+                        {text: "中国大陆服务器安装 Docker", link: "/docs/others/docker-install-cn.md"},
                     ],
                 },
                 {
@@ -74,7 +75,6 @@ export default defineConfig({
                     items: [
                         {text: "ionCube相关报错", link: "/docs/others/ioncube-error.md"},
                         {text: "从本地加载静态资源", link: "/docs/others/load-assets-from-server.md"},
-                        {text: "Docker 更换镜像源", link: "/docs/others/docker-mirror.md"},
                         {text: "服务器/代理商家统计表", link: "/docs/others/stat.md"},
                         {text: "关闭二步验证弹窗", link: "/docs/others/turn-off-2fa.md"},
                         {text: "常见问题", link: "/docs/others/faq.md"},
