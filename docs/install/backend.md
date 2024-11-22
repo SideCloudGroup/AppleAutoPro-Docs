@@ -34,8 +34,6 @@
 
 部分IP段存在被苹果拉黑的情况。推荐使用原生IP或动态IP。如需更多信息， 请参阅：[网络需求](../others/stat)
 
-若服务器位于中国大陆，则需要先更换Docker Registry镜像源。请参阅：[更换Docker Registry镜像源](../others/docker-mirror)
-
 ## 安装流程
 
 **若您的服务器位于中国大陆，请先[手动安装Docker](../others/docker-install-cn)。**
