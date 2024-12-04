@@ -49,7 +49,7 @@ export default defineConfig({
                     items: [
                         {text: "前端安装", link: "/docs/install/frontend.md"},
                         {text: "后端安装", link: "/docs/install/backend.md"},
-                        {text: "个人版授权证书安装", link: "/docs/install/license-manual.md"},
+                        {text: "离线授权证书安装", link: "/docs/install/license-manual.md"},
                         {text: "中国大陆服务器安装 Docker", link: "/docs/others/docker-install-cn.md"},
                     ],
                 },
