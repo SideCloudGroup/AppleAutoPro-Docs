@@ -56,7 +56,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/sahuidhsu/selenium-grid-docker
 ### 中国大陆服务器
 
 ```bash
-bash <(curl -Ls https://ghp.ci/raw.githubusercontent.com/sahuidhsu/selenium-grid-docker/main/wd.sh)
+bash <(curl -Ls https://ghgo.xyz/raw.githubusercontent.com/sahuidhsu/selenium-grid-docker/main/wd.sh)
 ```
 
 ## 部署AppleAutoPro后端
@@ -70,7 +70,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Ba
 ### 中国大陆服务器
 
 ```bash
-bash <(curl -Ls https://ghp.ci/raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
+bash <(curl -Ls https://ghgo.xyz/raw.githubusercontent.com/SideCloudGroup/AppleAutoPro-Backend/main/install.sh)
 ```
 
 安装时按照提示输入参数即可。
