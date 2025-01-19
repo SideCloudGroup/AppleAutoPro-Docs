@@ -21,7 +21,7 @@ export default defineConfig({
 
     themeConfig: {
         search: {
-          provider: "local",
+            provider: "local",
         },
 
         // https://vitepress.dev/reference/default-theme-config
@@ -175,11 +175,17 @@ export default defineConfig({
                     text: "Khác",
                     items: [
                         {text: "Lỗi Liên Quan đến ionCube", link: "/vi/docs/others/ioncube-error.md"},
-                        {text: "Bảng Thống Kê Các Dịch Vụ Máy Chủ/Proxy Có Thể Dùng Để Mở Khóa", link: "/vi/docs/others/stat.md"},
+                        {
+                            text: "Bảng Thống Kê Các Dịch Vụ Máy Chủ/Proxy Có Thể Dùng Để Mở Khóa",
+                            link: "/vi/docs/others/stat.md"
+                        },
                         {text: "Q&A", link: "/vi/docs/others/q-a.md"},
                     ]
                 }
             ],
         },
     },
+    footer: {
+        copyright: 'Copyright © 2025 <a href="https://sidecloud.org">SideCloud</a>',
+    }
 });

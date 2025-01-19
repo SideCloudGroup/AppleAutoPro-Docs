@@ -14,7 +14,7 @@ hero:
       link: /docs/
     - theme: alt
       text: Telegram交流群
-      link: https://t.me/AppleAutoPro_group
+      link: https://t.me/SideCloud_group
 
 features:
   - title: 自动解锁&关闭二步验证
