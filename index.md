@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AppleAutoPro"
-  tagline: 以全新方式管理你的 Apple ID - 基于密保问题的自动化 Apple ID 检测&解锁程序
+  tagline: 以全新方式管理你的 Apple ID<br>基于密保问题的自动化 Apple ID 检测&解锁程序
   actions:
     - theme: brand
       text: 购买
@@ -14,7 +14,7 @@ hero:
       link: /docs/
     - theme: alt
       text: Telegram交流群
-      link: https://t.me/AppleAutoPro_group
+      link: https://t.me/SideCloud_group
 
 features:
   - title: 自动解锁&关闭二步验证
