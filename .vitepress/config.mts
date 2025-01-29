@@ -188,4 +188,7 @@ export default defineConfig({
             copyright: 'Copyright © 2025 <a href="https://sidecloud.org">SideCloud</a>',
         }
     },
+    footer: {
+        copyright: 'Copyright © 2025 <a href="https://sidecloud.org">SideCloud</a>',
+    }
 });
